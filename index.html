@@ -9,23 +9,35 @@
 </head>
 <body class="font-[inter] m-0 p-0">
        <header class="">
-        <nav class="bg-[#412567] flex max-h-25">
-            <h3 class="ml-50 font-bold text-3xl"><span class="text-[#FFFFFF]">Tech</span><span class="text-orange-400">Wave</span></h3>
+        <nav class="bg-[#1A0B2E] flex py-3 ">
+            <h3 class="ml-50 font-bold text-5xl"><span class="text-[#FFFFFF]">Tech</span><span class="text-pink-400 dark:text-yellow-400">Wave</span></h3>
             <ul class="flex text-[#FFFFFF] ">
-                 <li class="list-none ml-78 text-base"><a href="" class="no-underline ">About</a></li>
+                 <li class="list-none ml-140 text-base"><a href="" class="no-underline ">About</a></li>
                  <li class="list-none ml-8 text-base "><a href="" class="no-underline ">Episodes</a></li>
                  <li class="list-none ml-8 text-base"><a href="" class="no-underline ">Host</a></li>
             </ul>
-            <button class="font-semibold bg-amber-700 text-[#FFFFFF] ml-78 rounded-lg">Subscribe  → </button>
+            <button class="font-semibold bg-linear-65 from-purple-600 via-red-400  to-pink-700 text-[#FFFFFF] ml-140 px-4 rounded-4xl">Subscribe →</button>
         </nav>
 
          <!--  second part  -->
-         <div class="h-screen bg-[url('./assets/hero-bg.png')] bg-cover bg-center   mx-auto    grid">
+         <div class="h-screen bg-[url('./assets/hero-bg.png')] bg-cover bg-center   mx-auto  ">
             
-            <img class="mx-auto  pt-[101px]" src="assets/hero-circle.png" alt="">
-            
-            <h1 class="text-white   items-center">TechWave</h1>
+           <div>
+             <img class="mx-auto  pt-[101px]" src="assets/hero-circle.png" alt="">
+             <img class="" src="assets/microphone.png" alt="">
+           </div>
+            <div class=" ">
+                   <h1 class="text-white  text-6xl font-bold  text-center pt-8">TechWave</h1>
+            <p class="text-[#FFFFFF]   text-center  px-2 py-3">Your daily dose of tech insights, productivity hacks, and personal growth</p>
          </div>
+         <div class="flex justify-center gap-3 mt-3">
+               <div><button class="text-[#FFFFFF] bg-linear-65 from-purple-500 to-pink-500 rounded-lg  font-semibold p-2 flex"><img src="assets/spotify.png" alt=""><span class="pl-2">Listen on Spotify</span></button></div>
+               <div><button class="text-[#00FF88]  border  rounded-lg  font-semibold p-2 flex"><img src="assets/message.png" alt=""><span class="pl-2">Subscribe</span></button></div>
+             
+         </div>
+         </div>
+
+       
 
        </header>
                       
@@ -63,7 +75,7 @@
          <!-- Why Choose TechWave part -->
           <section class="bg-[#230E3D] ">
               <h3 class="text-4xl font-bold   text-white   text-center pt-20  ">Why Choose TechWave</h3>
-            <div class="grid   lg:grid-cols-3  gap-4  xl:w-[1200px]   mx-auto  p-15">
+            <div class="grid   lg:grid-cols-3  gap-4  xl:w-[1200px]   mx-auto  p-15 ">
               
                 <div class="bg-[#351165]   lg:row-span-2  rounded-2xl   lg:px-10  lg:py-25 p-10 ">
                      <img src="assets/headphone.png" alt="">
@@ -93,7 +105,32 @@
             </div>
           </section>
 
+            <!-- featured section -->
 
+          <section class="bg-[#1A0B2E]">
+            <h3 class="text-4xl font-bold   text-white   text-center pt-20 ">Featured Episodes</h3>
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 xl:w-[1200px] mx-auto p-15">
+                <div class="bg-[#250D44] rounded-3xl">
+                  <iframe class="w-full h-[195px] rounded-t-3xl" src="https://www.youtube.com/embed/7ARBJQn6QkM?si=4h3jOByVNTGxR2mW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <h3 class="text-2xl font-bold   text-white  p-6">The Future of AI in Everyday Life iuiuh</h3>
+                  <p class="text-[#FFFFFF]  font-normal p-6 pt-2">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                    <p class="text-[#00FF88] pl-6 pb-4 flex gap-2 font-bold"><img src="assets/clock.png" alt=""> 42 min</p>
+                </div>
+                <div class="bg-[#250D44] rounded-3xl">
+                  <iframe class="w-full h-[195px] rounded-t-3xl" src="https://www.youtube.com/embed/PLBYYdg0sfs?si=wsFPIuglZ86FZ2JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <h3 class="text-2xl font-bold   text-white p-6">Building Better Habits for Remote Work</h3>
+                  <p class="text-[#FFFFFF]  font-normal p-6 pt-2">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                    <p class="text-[#00FF88] pl-6 pb-4 flex gap-2 font-bold"><img src="assets/clock.png" alt=""> 35 min</p>
+                </div>
+                <div class="bg-[#250D44] rounded-3xl">
+                <iframe class="w-full h-[195px] rounded-t-3xl" src="https://www.youtube.com/embed/oX7OduG1YmI?si=IbeRuYMV2GeFklC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <h3 class="text-2xl font-bold   text-white  p-6">Career Growth in Tech: A Roadmap</h3>
+                  <p class="text-[#FFFFFF]  font-normal  p-6 pt-2">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                    <p class="text-[#00FF88] pl-6 pb-4 flex gap-2 font-bold"><img src="assets/clock.png" alt="">51 min</p>
+                </div>
+            </div>
+          </section>
+         
 
        </main>
     
